@@ -1,0 +1,18 @@
+/*
+Theme Name: Chaplin child theme per Hodlers VC.
+Theme URI: https://andersnoren.se/teman/lovecraft-wordpress-theme/
+Description: Tema di supporto per il sito di Hodlers VC.
+Author: Emilio Dalla Torre
+Textdomain: emiliodallatorre
+Author URI: https://emiliodallatorre.it/
+Template: chaplin
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@media screen and (max-width: 600px) {
+    .overlay-header #site-header {
+        top: 32px;
+    }
+}
