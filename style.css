@@ -11,8 +11,21 @@ License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
+/* Stile per dispostivi desktop */
+
+@media (min-width: 1000px) {
+    .menu-modal.active .menu-modal-inner {
+        margin-top: 44px;
+    }
+}
+
+/* Stile per dispositivi mobile */
+
 @media screen and (max-width: 600px) {
-    .overlay-header #site-header {
-        top: 32px;
+    .section-inner {
+        padding-top: 32px;
+    }
+    .cover-header.screen-height.screen-width.bg-image.bg-attachment-fixed {
+        min-height: 704px !important;
     }
 }
